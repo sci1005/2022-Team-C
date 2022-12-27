@@ -1,4 +1,4 @@
-const express = require("./config/express");
+const express = require("./server/config/express");
 
 const port = 3000;
 express().listen(port, function(){
