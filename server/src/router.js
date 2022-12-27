@@ -4,13 +4,11 @@ module.exports = function(app){
     const user = require("./controller");
 
     app.get("/", function(req, res){
-        console.log("hello");
-        res.send("hello");
+        res.render("main/main.html");
     });
 
     app.get("/test", function(req, res){
-        console.log("test");
-        res.send("test");
+        res.render("member_main/main.html");
     });
 
 }
