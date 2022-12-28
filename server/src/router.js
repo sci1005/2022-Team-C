@@ -11,4 +11,5 @@ module.exports = function(app){
         res.render("member_main/main.html");
     });
 
+    app.get("/signin", user.signIn);
 }

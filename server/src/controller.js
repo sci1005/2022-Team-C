@@ -2,3 +2,7 @@
 
 const provider = require("./provider");
 const service = require("./service");
+
+exports.signIn = async function(req, res){
+    res.render("sign/signin.html"); 
+}

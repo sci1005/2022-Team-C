@@ -1,14 +1,13 @@
 const mysql = require('mysql2/promise');
-/* 
+
 const pool = mysql.createPool({         // AWS DB 연결하기 (test: localDB 연결)
-    host: 52.79.60.10,
-    user: uno,
-    port: '3306',
-    password: 12345678,
-    database unoDB;
+    host : "localhost",
+    port : 3306,
+    user : "root",
+    password : "1234",
+    database : "comp"
 });
 
 module.exports = {
     pool: pool
 };
-*/
